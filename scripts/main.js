@@ -1,7 +1,7 @@
 let date = new Date();
 let year = date.getFullYear();
 
-document.querySelector('h1').innerHTML = '&copy;' + year;
+document.querySelector('h2').innerHTML = '&copy;' + year;
 
 let currentdate = document.lastModified;
 
