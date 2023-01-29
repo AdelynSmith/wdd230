@@ -23,6 +23,7 @@ button{
     background-color: transparent;
     border:none;
     color:#0a1256;
+    float: right;
     font-size: 20px;
     margin: 10px;
 }
@@ -31,6 +32,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    float:right;
     /* position: absolute; */
 }
 
@@ -55,6 +57,10 @@ a:hover{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+#flogo, #ilogo{ 
+    width: 20px;
+}
+
 nav h1{
     color:#0a1256;
     padding: 5px;
@@ -76,9 +82,47 @@ footer h1{
     color: black;
 }
 
-#small_logo{
+#small_logo, #small_logo2{
     width: 50px;
     padding: 5px;
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#hero{
+    border: solid black 1px;
+}
+
+#events{
+    border: solid black 1px;
+}
+
+#weather{
+    border: solid black 1px;
+}
+
+#news{
+    border: solid black 1px;
+}
+
+#join{
+    display:none;
+}
+
+#spotlight1{
+    border: solid black 1px;
+}
+
+#spotlight2{
+    border: solid black 1px;
+}
+
+#spotlight3{
+    display:none;
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
