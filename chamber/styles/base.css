@@ -74,7 +74,10 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
+}
+
+footer a{
+    text-decoration: none;
 }
 
 footer h1{
@@ -95,6 +98,17 @@ main{
 
 #hero{
     border: solid black 1px;
+    position:relative;
+}
+
+#idahofalls{
+    width:100%;
+}
+
+#welcome{
+    position:absolute;
+    top:0;
+    left:0;
 }
 
 #events{

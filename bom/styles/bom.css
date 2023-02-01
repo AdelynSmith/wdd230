@@ -1,0 +1,23 @@
+li {
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color:brown;
+    list-style-type: none;
+  }
+
+  li button {
+    font-size: 12px;
+    margin-left: 20px;
+    color: #666;
+  }
+
+body{
+    background-color: bisque;
+    border: solid black 1px;
+    text-align: center;
+}
+
+h1{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
