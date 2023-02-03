@@ -10,7 +10,7 @@ x.onclick = toggleMenu;
 let date = new Date();
 let year = date.getFullYear();
 
-document.querySelector('h2').innerHTML = '&copy;' + year + "| Idaho Falls Chamber";
+document.querySelector('#copy').innerHTML = '&copy;' + year + "| Idaho Falls Chamber";
 
 let currentdate = document.lastModified;
 
@@ -23,3 +23,7 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 );
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
+
+if (date == 1 || date == 3){
+    document.write('hi')
+}
