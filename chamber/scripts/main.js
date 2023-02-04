@@ -8,6 +8,7 @@ const x = document.getElementById('hamburgerBtn')
 x.onclick = toggleMenu;
 
 let date = new Date();
+let day = date.getDay();
 let year = date.getFullYear();
 
 document.querySelector('#copy').innerHTML = '&copy;' + year + "| Idaho Falls Chamber";
@@ -24,6 +25,6 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
-if (date == 1 || date == 3){
-    document.write('hi')
+if (day == 1 || day == 2){
+    document.querySelector('#banner').innerHTML = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
 }

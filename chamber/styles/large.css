@@ -1,4 +1,4 @@
-@media only screen and (min-width: 750px){
+@media only screen and (min-width: 900px){
     nav ul{
         display:flex;
         flex-direction: row;
@@ -12,10 +12,23 @@
     }
     
     #hero{
-        border: solid black 1px;
+        /* border: solid black 1px; */
         grid-column: 2/3;
-        grid-row: 1/2;
+        grid-row: 1/3;
         margin: 5px;
+    }
+
+    #welcome{
+        color:#0a1256;
+    }
+
+    #idahofalls{
+        display: none;
+    }
+
+    #idahofalls2{
+        display:grid;
+        width: 100%;
     }
     
     #events{
@@ -45,6 +58,10 @@
         grid-column:1/2;
         grid-row: 3/4;
         margin: 5px;
+    }
+
+    #join h1{
+        height: 35px;
     }
     
     #spotlight1{
