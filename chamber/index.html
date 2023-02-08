@@ -22,7 +22,7 @@
   <body>
     <header>
       <nav>
-        <img id="small_logo" src="images/logo_small.png" alt="logo" />
+        <img id="small_logo" src="images/logo-small.webp" alt="logo" />
         <h1>Idaho Falls</h1>
         <div>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
@@ -41,9 +41,15 @@
     <h1 id="banner"></h1>
     <main id="content">
       <section id="hero">
+
+      <!-- <picture> -->
+        <!-- <source srcset="images/idahofalls2.jpg" media="min-width: 900px">
+        <source srcset="images/idahofalls.jpg" media="min-width: 600px"> -->
         <img id="idahofalls" src="images/idahofalls.jpg" alt="idaho falls city">
         <img id="idahofalls2" src="images/idahofalls2.jpg" alt="Idaho Falls temple and Snake river">
-        <h2 id="welcome">Welcome to Idaho Falls</h2>
+      <!-- </picture>   -->
+
+        <!-- <h2 id="welcome">Welcome to Idaho Falls</h2> -->
         <h3 id="joinus">Join Us</h3>
         <!-- <p>Hero with site name and call to action</p> -->
       </section>
@@ -57,10 +63,11 @@
       <section id="weather">
         <h1>Weather</h1>
         <img id="weatherimg" src="images/weather.png" alt="Sun with a cloud">
-        <h2>31&deg;C</h2>
-        <p>Partly Cloudy</p>
-        <p>Wind Speed:     2.5km/h</p>
-        <p>Wind Chill:     N/A</p>
+        <h2 class="temp"><span class="t">33</span>&deg;F</h2>
+        <p class="desc">Partly Cloudy</p>
+        <hr>
+        <p>Wind Speed:<span class="ws"> 2.5</span>mph</p>
+        <p>Wind Chill:<span class="wc"> N/A </span></p>
       </section>
 
       <section id="news">
@@ -89,7 +96,7 @@
       <section id="spotlight2">
         <h1>Writing club</h1>
         <img id="pen" src="images/pen.png" alt="pen and ink">
-        <p>Writing club at the public library.</p>
+        <p>Writing club at the public library on Wednesdays and Fridays. </p>
         <p>writeforfun@gmail.com</p>
         <p>(123)-456-7890</p>
       </section>
@@ -97,7 +104,7 @@
       <section id="spotlight3">
         <h1>Oak's Gardens</h1>
         <img id="tree" src="images/tree.png" alt="Green tree">
-        <p>Oak's Gardens has its grand opening!</p>
+        <p>Special spring sale at Oak's Gardens. 10-50% off select items. </p>
       </section>
 
     </main>
