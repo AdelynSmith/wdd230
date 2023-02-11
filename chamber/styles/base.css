@@ -124,10 +124,24 @@ main{
     color:#bba364;
 }
 
+#small{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#medium{
+    display: none;
+}
+
+#large{
+    display: none;
+}
+
 #joinus{
     position: absolute;
     bottom:0;
-    right:0;
+    right:15px;
     background:#bba364;
     border-radius: 5px;
     /* width:100px; */
@@ -140,12 +154,18 @@ main{
     border: solid black 1px;
     margin: 5px;
     text-align: center;
+    /* background-color: #ccb885; */
+}
+
+#icecream{
+    width: 50%;
 }
 
 #weather{
     border: solid black 1px;
     margin: 5px;
     text-align: center;
+    /* background-color: #ccb885; */
 }
 
 #weatherimg{
@@ -156,6 +176,7 @@ main{
     border: solid black 1px;
     margin: 5px;
     text-align: center;
+    /* background-color: #ccb885; */
 }
 
 #join{
@@ -166,6 +187,7 @@ main{
     border: solid black 1px;
     margin: 5px;
     text-align: center;
+    /* background-color: #ccb885; */
 }
 
 #truck{
@@ -176,6 +198,7 @@ main{
     border: solid black 1px;
     margin: 5px;
     text-align: center;
+    /* background-color: #ccb885; */
 }
 
 #pen{
@@ -184,6 +207,7 @@ main{
 
 #spotlight3{
     display:none;
+    /* background-color: #ccb885; */
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}

@@ -29,17 +29,17 @@ if (day == 1 || day == 2){
     document.querySelector('#banner').innerHTML = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
 }
 
-//wind chill calculation
+// //wind chill calculation
 
-const temp = document.querySelector('.t').textContent;
-const ws = document.querySelector('.ws').textContent;
+// const temp = document.querySelector('.t').textContent;
+// const ws = document.querySelector('.ws').textContent;
 
-let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(ws,0.16)) + (0.4275*temp*Math.pow(ws,0.16)));
-console.log(chill);
+// let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(ws,0.16)) + (0.4275*temp*Math.pow(ws,0.16)));
+// console.log(chill);
 
 
-let windchill = document.querySelector('.wc');
-if (temp <= 50 && ws >= 3) {
+// let windchill = document.querySelector('.wc');
+// if (temp <= 50 && ws >= 3) {
     
-    windchill.textContent = chill;
-}
+//     windchill.textContent = chill;
+// }

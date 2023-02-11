@@ -39,6 +39,17 @@
         grid-row: 1/2;
         margin: 5px;
     }
+
+    #small{
+        display: none;
+    }
+
+    #medium{
+        display: grid;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
     
     #events{
         border: solid black 1px;
