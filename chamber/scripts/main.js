@@ -43,3 +43,7 @@ if (day == 1 || day == 2){
     
 //     windchill.textContent = chill;
 // }
+
+// storage local and session
+localStorage.setItem('name','Adelyn Smith - Permanent');
+sessionStorage.setItem('class','WDD230 - not Permanent');

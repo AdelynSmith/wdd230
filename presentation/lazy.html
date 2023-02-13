@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple lazy loading</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <p>Hello World</p>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    
+    <!-- <section>
+        <img src="images/water.jpg" alt="Trees and water">
+        <img src="images/wilderness.jpg" alt="trailhead">
+        <img src="images/cabin.jpg" alt="cabin and water">
+        <img src="images/tree.jpg" alt="Cherry Tree" onload="alert('Image loaded!');">
+    </section> -->
+
+    <section>
+        <img src="images/water.jpg" alt="Trees and water" loading ="lazy">
+        <img src="images/wilderness.jpg" alt="trailhead" loading = "lazy">
+        <img src="images/cabin.jpg" alt="cabin and water" loading = "lazy">
+        <img src="images/tree.jpg" alt="Cherry Tree" loading = "lazy" onload="alert('Image Loaded!');">
+    </section>
+
+    <!-- <script src = "scripts/main.js"></script> -->
+</body>
+</html>
