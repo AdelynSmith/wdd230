@@ -32,3 +32,24 @@ const io = new IntersectionObserver(
 images.forEach(img => {
     io.observe(img);
 })
+
+if(!localStorage.getItem('lastvisit')) {
+    localStorage.setItem('lastvisit', Date.now());
+    document.getElementById('visits').textContent = 'This is your 1st visit';
+} else {
+    giveDate();
+}
+
+function giveDate() {
+    let lastDate = localStorage.getItem('lastvisit');
+    let currDate = Date.now();
+    
+    let difference = currDate - lastDate;
+        console.log(difference);
+        let daysDifference = Math.floor(difference/1000/60/60/24);
+
+    document.getElementById('visits').textContent = daysDifference;
+
+    localStorage.setItem('lastvisit', Date.now());
+
+}

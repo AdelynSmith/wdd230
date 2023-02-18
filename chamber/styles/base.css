@@ -292,6 +292,9 @@ footer h1{
     width: 75%;
 }
 
+#days-visits{
+    text-align: center;
+}
 
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
