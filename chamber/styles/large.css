@@ -6,7 +6,7 @@
         margin: 10px;
     }
 
-    main{
+    #content{
         display:grid;
         grid-template-columns: 1fr 2fr 1fr;
     }
@@ -102,5 +102,38 @@
 
     #tree{
         width: 50%;
+    }
+
+    /* Discover Page */
+
+    /* Discover grid */
+    #discover{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #greenbelt{
+        grid-column:1/2;
+        grid-row: 1;
+    }
+
+    #yellowstone{
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+    #museum{
+        grid-column:3/4;
+        grid-row: 1;
+    }
+
+    #freeman{
+        grid-column:1/2;
+        grid-row:2;
+    }
+
+    #mountain{
+        grid-column: 2/3;
+        grid-row:2;
     }
 }

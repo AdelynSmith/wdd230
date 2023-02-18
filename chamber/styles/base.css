@@ -73,6 +73,12 @@ nav h1{
     font-size: 25px;
 }
 
+#days{
+    background-color: #0a1256;
+    color: #bba364;
+    
+}
+
 footer{
     background-color:#bba364;
     border-radius: 5px;
@@ -97,7 +103,8 @@ footer h1{
     padding: 5px;
 }
 
-main{
+/* Home grid */
+#content{
     display:grid;
     grid-template-columns: 1fr;
     font-family: 'Roboto Mono', monospace;
@@ -209,6 +216,82 @@ main{
     display:none;
     /* background-color: #ccb885; */
 }
+
+/* Discover Page */
+
+/* Discover grid */
+#discover{
+    display:grid;
+    grid-template-columns: 1fr;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#greenbelt{
+    margin: 5px;
+    text-align: center;
+}
+
+#greenbelt-img{
+    display:block;
+    margin:0 auto;
+    width: 75%;
+}
+
+#yellowstone{
+    margin:5px;
+    text-align: center;
+}
+
+#yellowstone-img{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#museum{
+    margin:5px;
+    text-align: center;
+}
+
+#museum-img{
+    display: block;
+    margin: 0 auto;
+    width: 75%
+}
+
+#freeman{
+    margin:5px;
+    text-align: center;
+}
+
+#freeman-img{
+    display: block;
+    margin: 0 auto;
+    width:75%;
+}
+
+#mountain{
+    margin:5px;
+    text-align: center;
+}
+
+#mountain-img{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#zoo{
+    margin:5px;
+    text-align: center;
+}
+
+#zoo-img{
+    display:block;
+    margin: 0 auto;
+    width: 75%;
+}
+
 
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}

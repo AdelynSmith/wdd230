@@ -28,7 +28,7 @@
         display:block;
     }
 
-    main{
+    #content{
         display:grid;
         grid-template-columns: 2fr 1fr;
     }
@@ -99,4 +99,42 @@
         grid-row: 3/4;
         margin: 5px;
     }
+
+    /* Discover page */
+
+    /* Discover grid */
+    #discover{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #greenbelt{
+        grid-column:1/2;
+        grid-row: 1;
+    }
+
+    #yellowstone{
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+    #museum{
+        grid-column:1/2;
+        grid-row: 2;
+    }
+
+    #freeman{
+        grid-column:2/3;
+        grid-row:2;
+    }
+
+    #mountain{
+        grid-column:1/2;
+        grid-row:3;
+    }
+
+    #discover img:hover{
+        box-shadow: 5px 5px 10px #6f7364;
+    }
+    
 }

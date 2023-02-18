@@ -29,21 +29,27 @@ if (day == 1 || day == 2){
     document.querySelector('#banner').innerHTML = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
 }
 
-// //wind chill calculation
-
-// const temp = document.querySelector('.t').textContent;
-// const ws = document.querySelector('.ws').textContent;
-
-// let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(ws,0.16)) + (0.4275*temp*Math.pow(ws,0.16)));
-// console.log(chill);
-
-
-// let windchill = document.querySelector('.wc');
-// if (temp <= 50 && ws >= 3) {
-    
-//     windchill.textContent = chill;
-// }
 
 // storage local and session
 localStorage.setItem('name','Adelyn Smith - Permanent');
 sessionStorage.setItem('class','WDD230 - not Permanent');
+
+
+// Number of Visits
+// initialize display elements
+const visitsDisplay = document.querySelector("#visits");
+
+// get the stored value in localStorage
+let numVisits = Number(window.localStorage.getItem("visits-ls")); // Using the Number() function ensures that if the storage item does not exist, it will be converted into a zero (0) which helps on the if block condition.
+
+// determine if this is the first visit or display the number of visits.
+if (numVisits !== 0) {
+	visitsDisplay.textContent = numVisits;
+} else {
+	visitsDisplay.textContent = `This is your first visit!`;
+}
+
+// increment the number of visits.
+numVisits++;
+// store the new number of visits value
+localStorage.setItem("visits-ls", numVisits);
