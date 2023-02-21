@@ -292,6 +292,39 @@ footer h1{
     width: 75%;
 }
 
+#memorial{
+    margin:5px;
+    text-align: center;
+}
+
+#memorial-img{
+    display:block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#fireworks{
+    margin: 5px;
+    text-align: center;
+}
+
+#fireworks-img{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#river{
+    margin: 5px;
+    text-align: center;
+}
+
+#river-img{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
 #days-visits{
     text-align: center;
 }

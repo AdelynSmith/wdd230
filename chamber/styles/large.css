@@ -137,6 +137,21 @@
         grid-row:2;
     }
 
+    #memorial{
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+
+    #fireworks{
+        grid-column: 2/3;
+        grid-row: 3;
+    }
+
+    #river{
+        grid-column: 3/4;
+        grid-row: 3;
+    }
+
     #days-visits{
         grid-column: 1/4;
     }
