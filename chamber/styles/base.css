@@ -334,3 +334,18 @@ footer h1{
 
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
+
+/* JOIN page CSS */
+
+label, input{
+    display: block;
+    font-size: 1.5em;
+}
+
+label{
+    margin-top: 10px;
+}
+
+input{
+    height: 40px;
+}
