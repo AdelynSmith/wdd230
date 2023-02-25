@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 690px){
     nav ul{
         display:flex;
         flex-direction: row;
@@ -154,6 +154,20 @@
 
     #days-visits{
         grid-column: 1/3;
+        text-align: center;
+    }
+
+    /* Join CSS */
+    #join_content{
+        flex-direction: row;
+        /* margin-left: 80px; */
+    }
+
+    #membership{
+        margin-left: 10%;
+    }
+
+    #membership h2{
         text-align: center;
     }
 

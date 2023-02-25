@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Home page for the Idaho Falls Chamber of Commerce"
+      content="Join page for the Idaho Falls Chamber of Commerce"
     />
     <meta name="author" content="Adelyn Smith" />
     <title>The Falls Chamber|Join</title>
@@ -36,14 +36,14 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
+            <li><a href="join.html">Join</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
           <div class="date"></div>
         </div>
       </nav>
     </header>
-    <h1>Join Our Chamber</h1>
+    <h1 id="join_chamber">Join Our Chamber</h1>
     <main id="join_content">
       <form method="get" action="thankyou.html">
         <label for="fname">First Name*:</label>
@@ -51,6 +51,7 @@
         <label for="lname">Last Name*:</label>
         <input id="lname" name="lastname" required>
         <label for="title">Business Position Title</label>
+        <span>Only letters, dashes and spaces, 7 or more letters</span>
         <input id="title" name="biztitle" pattern="[A-Za-z -]+" minlength="7" required>
         <label for="email">Email*:</label>
         <input id="email" name="email" type="email" placeholder="name@domain.com" required>
@@ -60,17 +61,42 @@
         <input id="business" name="bizname" required>
         <label for="member">Enter Your Level of Membership</label>
         <div id="radio">
-        <input id="member" id="one" type="radio" name="mlevel">
-        <label for="one">Level 1</label>
-        <input id="member" id="one" type="radio" name="mlevel">
-        <label for="one">Level 2</label>
-        <input id="member" id="one" type="radio" name="mlevel">
-        <label for="one">Level 3</label>
-        <input id="member" id="one" type="radio" name="mlevel">
-        <label for="one">Level 4</label>
+            <input id="member" id="one" type="radio" name="mlevel">
+            <label for="one">Level 1</label>
+            <input id="member" id="two" type="radio" name="mlevel">
+            <label for="two">Level 2</label>
+            <input id="member" id="three" type="radio" name="mlevel">
+            <label for="three">Level 3</label>
+            <input id="member" id="four" type="radio" name="mlevel">
+            <label for="four">Level 4</label>
         </div>
+        <label for="message">Business Description:</label>
+        <textarea id="message"></textarea>
+        <input id="date" type="hidden" name="todaydate">
         <input type="submit" value="Join the Chamber">
       </form>
+      <section id="membership">
+        <h2>Membership Levels:</h2>
+        <h2>NP Membership</h2>
+        <ul><li>for non profit organizations and there is no fee.</li></ul>
+        <h2>Bronze Membership</h2>
+        <ul><li>15% discounts on events</li>
+        <li>10% discount on advertising</li>
+        <li>Fee of $50/month</li></ul>
+        <h2>Silver Membership</h2>
+        <ul><li>25% discount on events</li>
+        <li>15% discount on advertising</li>
+        <li>Free participation in the trade fair</li>
+        <li>Fee of $100/month</li></ul>
+        <h2>Gold Membership</h2>
+        <ul><li>50% discount on events</li>
+        <li>50% discount on advertising</li>
+        <li>Free participation in the trade fair</li>
+        <li>5 free featured ads per year</li>
+        <li>1 free training per quarter</li>
+        <li>Fee of $100/month</li></ul>
+
+        </section>
     </main>
     <footer>
       <img id="small_logo2" src="images/logo_small.png" alt="logo" />
@@ -85,6 +111,5 @@
       <div id="year"></div>
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/windchill.js"></script>
   </body>
 </html>
