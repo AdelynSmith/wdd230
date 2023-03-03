@@ -1,54 +1,67 @@
 {
     "business": [
       {
-        "name": "Joseph",
-        "address": "Smith",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+        "name": "Love at First Bite",
+        "address": "901 Pier View Dr #103, Idaho Falls, ID 83402",
+        "phone": "(208) 522-7788",
+        "website": "https://www.loveatfirstbitemercantile.com/",
+        "image": "images/love_at_first_bite.jpg"
       },
       {
-        "name": "Brigham",
-        "address": "Young",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+        "name": "Smitty's",
+        "address": "645 W Broadway St, Idaho Falls, ID 83402",
+        "phone": "(208) 523-6450",
+        "website": "https://www.smittys-if.com/",
+        "image": "images/smittys.jpg"
       },
       {
-        "name": "John",
-        "address": "Taylor",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+        "name": "Idaho Central Credit Union",
+        "address": "240 25th E, Idaho Falls, ID 83401",
+        "phone": "(208) 478-3300",
+        "website": "https://www.iccu.com/",
+        "image": "images/credit_union.png"
       },
       {
-        "name": "Wilford",
-        "address": "Woodruff",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+        "name": "East Idaho Aquarium",
+        "address": " 570 E Anderson St, Idaho Falls, ID 83401",
+        "phone": "(208) 569-2996",
+        "website":"https://eastidahoaquarium.com/" , 
+        "image": "images/aquarium.png"
       },
       {
-        "name": "Lorenzo",
-        "address": "Snow",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+        "name": "Eastern Idaho Art Museum",
+        "address": "300 S Capital Ave, Idaho Falls, ID 83402",
+        "phone": "(208) 524-7777",
+        "website": "https://www.theartmuseum.org/",
+        "image": "images/art.jpg"
       },
       {
-        "name": "Joseph F.",
-        "address": "Smith",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+        "name": "iJump",
+        "address": "2670 E 14th N, Idaho Falls ID 83401",
+        "phone": "(208) 881-5108",
+        "website": "https://www.ijumpidaho.com/",
+        "image": "images/ijump.jpg"
       },
       {
-        "name": "Heber J.",
-        "address": "Grant",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+        "name": "Snake River Animal Shelter",
+        "address": "3000 Lindsay Blvd. Idaho Falls ID 83402",
+        "phone": "(208) 523-4219",
+        "website": "https://www.snakeriveranimalshelter.org/",
+        "image": "images/animal_shelter.jpg"
       },
       {
-        "name": "George A.",
-        "address": "Smith",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+        "name": "Museum of Idaho",
+        "address": "200 N. Eastern Avenue, Idaho Falls ID 83402",
+        "phone": "(208) 522-1400",
+        "website": "https://museumofidaho.org/" ,
+        "image": "museum_logo.jpg"
       },
       {
-        "name": "David O.",
-        "address": "McKay",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
-      },
-      {
-        "name": "Joseph Fielding",
-        "address": "Smith",
-        "imageurl": "https://media.ldscdn.org/images/media-library/teachings-of-presidents-of-the-church/joseph-fielding-smith/joseph-fielding-smith-82916-gallery.jpg"
+        "name": "Deseret Book",
+        "address": "750 Pioneer Rd, Idaho Falls, ID 83402",
+        "phone": "(208) 525-2500",
+        "website": "https://www.facebook.com/DBIFTemple/",
+        "image": "images/deseretbook.png"
       }
     ]
   }
