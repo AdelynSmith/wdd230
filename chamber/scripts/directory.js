@@ -7,7 +7,7 @@ async function getDirectoryData() {
     console.table(data.business); // note that we
     // reference the prophet array of the data
     // object given the structure of the json file
-    displayTable(data.business);
+    displayTable(data.businesses);
   }
   
   getDirectoryData();

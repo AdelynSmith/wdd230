@@ -9,6 +9,7 @@ async function getProphetData() {
   // reference the prophet array of the data
   // object given the structure of the json file
   displayProphets(data.prophets);
+  displayTable(data.prophets);
 }
 
 getProphetData();
@@ -43,15 +44,17 @@ const displayProphets = (prophets) => {
 }; // end of function expression
 
 function displayTable(prophets) {
-  let row = document.querySelectorAll("row");
-  row.forEach((item) => {
-    item.remove();
-  });
+  // let row = document.querySelectorAll("row");
+  // row.forEach((item) => {
+  //   item.remove();
+  // });
 
-  let section = document.querySelectorAll("section");
-  section.forEach((item) => {
-    item.remove();
-  });
+  // let section = document.querySelectorAll("section");
+  // section.forEach((item) => {
+  //   item.remove();
+  // });
+
+ 
 
   prophets.forEach((prophet) => {
     let tr = document.createElement("tr");
@@ -70,3 +73,20 @@ function displayTable(prophets) {
     document.querySelector("table").appendChild(tr);
   });
 }
+
+table_class = document.querySelector(".table")
+card_class = document.querySelector(".cards")
+table_button = document.querySelector("#list")
+card_button = document.querySelector("#cards")
+
+card_button.addEventListener('click', () => {
+  card_class.style.display = "flex";
+  table_class.style.display = "none";
+});
+
+table_button.addEventListener('click', () => {
+  card_class.style.display = "none";
+  table_class.style.display = "block";
+  console.log
+});
+

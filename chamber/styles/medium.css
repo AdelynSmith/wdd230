@@ -171,5 +171,8 @@
         text-align: center;
     }
 
-    
+    /* Directory CSS */
+    table td{
+        display: table-cell;
+    }
 }
