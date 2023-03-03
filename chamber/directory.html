@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Home page for the Idaho Falls Chamber of Commerce"
+    />
+    <meta name="author" content="Adelyn Smith" />
+    <title>The Falls Chamber|Home</title>
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img id="small_logo" src="images/logo-small.webp" alt="logo" />
+        <h1>Idaho Falls</h1>
+        <div>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+          <a href="https://www.facebook.com/"
+            ><img id="flogo" src="images/facebook.png" alt="facebook"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img id="ilogo" src="images/instagram.png" alt="instagram"
+          /></a>
+          <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="date"></div>
+        </div>
+      </nav>
+    </header>
+    <main id = "directory">
+        <div id="view">
+          <button id="cards">Cards</button>
+          <button id="list">List</button>
+        </div>
+        <div class="cards"></div>
+        <table></table>
+      </main>
+    <footer>
+      <img id="small_logo2" src="images/logo_small.png" alt="logo" />
+      <h1>Idaho Falls Chamber of Commerce</h1>
+      <h2 id="copy">.</h2>
+      <p>Adelyn Smith | WDD230</p>
+      <p>(123)-456-7890</p>
+      <a
+        href="https://www.google.com/maps/place/Idaho+Falls,+ID/@43.4928072,-112.1037476,12z/data=!3m1!4b1!4m5!3m4!1s0x5354594e739512b5:0x2311c9fc094c49c9!8m2!3d43.4926607!4d-112.0407584"
+        >Location</a
+      >
+      <div id="year"></div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/directory.js"></script>
+  </body>
+</html>

@@ -8,7 +8,7 @@ async function getProphetData() {
   console.table(data.prophets); // note that we
   // reference the prophet array of the data
   // object given the structure of the json file
-  displayTable(data.prophets);
+  displayProphets(data.prophets);
 }
 
 getProphetData();
