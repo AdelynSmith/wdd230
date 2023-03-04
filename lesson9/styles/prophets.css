@@ -39,6 +39,7 @@ table{
     width: 75%;
     margin: 50px auto;
     font-size: 1.2em;
+    display: none;
 }
 
 td{

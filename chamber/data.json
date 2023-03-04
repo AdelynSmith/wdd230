@@ -5,6 +5,7 @@
         "address": "901 Pier View Dr #103, Idaho Falls, ID 83402",
         "phone": "(208) 522-7788",
         "website": "https://www.loveatfirstbitemercantile.com/",
+        "membership": "level 4",
         "image": "images/love_at_first_bite.jpg"
       },
       {
@@ -12,6 +13,7 @@
         "address": "645 W Broadway St, Idaho Falls, ID 83402",
         "phone": "(208) 523-6450",
         "website": "https://www.smittys-if.com/",
+        "membership": "level 4",
         "image": "images/smittys.jpg"
       },
       {
@@ -19,13 +21,15 @@
         "address": "240 25th E, Idaho Falls, ID 83401",
         "phone": "(208) 478-3300",
         "website": "https://www.iccu.com/",
+        "membership": "level 4",
         "image": "images/credit_union.png"
       },
       {
         "name": "East Idaho Aquarium",
         "address": " 570 E Anderson St, Idaho Falls, ID 83401",
         "phone": "(208) 569-2996",
-        "website":"https://eastidahoaquarium.com/" , 
+        "website":"https://eastidahoaquarium.com/" ,
+        "membership": "level 4", 
         "image": "images/aquarium.png"
       },
       {
@@ -33,6 +37,7 @@
         "address": "300 S Capital Ave, Idaho Falls, ID 83402",
         "phone": "(208) 524-7777",
         "website": "https://www.theartmuseum.org/",
+        "membership": "level 4",
         "image": "images/art.jpg"
       },
       {
@@ -40,6 +45,7 @@
         "address": "2670 E 14th N, Idaho Falls ID 83401",
         "phone": "(208) 881-5108",
         "website": "https://www.ijumpidaho.com/",
+        "membership": "level 4",
         "image": "images/ijump.png"
       },
       {
@@ -47,6 +53,7 @@
         "address": "3000 Lindsay Blvd. Idaho Falls ID 83402",
         "phone": "(208) 523-4219",
         "website": "https://www.snakeriveranimalshelter.org/",
+        "membership": "level 4",
         "image": "images/animal_shelter.jpg"
       },
       {
@@ -54,6 +61,7 @@
         "address": "200 N. Eastern Avenue, Idaho Falls ID 83402",
         "phone": "(208) 522-1400",
         "website": "https://museumofidaho.org/" ,
+        "membership": "level 4",
         "image": "images/museum_logo.jpg"
       },
       {
@@ -61,6 +69,7 @@
         "address": "750 Pioneer Rd, Idaho Falls, ID 83402",
         "phone": "(208) 525-2500",
         "website": "https://www.facebook.com/DBIFTemple/",
+        "membership": "level 4",
         "image": "images/deseretbook.png"
       }
     ]
