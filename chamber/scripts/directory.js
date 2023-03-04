@@ -1,18 +1,19 @@
 const url = "https://adelynsmith.github.io/wdd230/chamber/data.json"
 
-async function getDirectoryData() {
+async function getBusinessData() {
     const response = await fetch(url);
     console.log(response);
     const data = await response.json();
     console.table(data.business); // note that we
     // reference the prophet array of the data
     // object given the structure of the json file
+    displayBusinesses(data.businesses);
     displayTable(data.businesses);
   }
   
-  getDirectoryData();
+  getBusinessData();
   
-  const displayBusinesses = (business) => {
+  const displayBusinesses = (businesses) => {
     const cards = document.querySelector("div.cards"); // select the output container element
   
     businesses.forEach(
@@ -41,18 +42,18 @@ async function getDirectoryData() {
     );
   }; // end of function expression
   
-  function displayTable(business) {
-    let row = document.querySelectorAll("row");
-    row.forEach((item) => {
-      item.remove();
-    });
+  function displayTable(businesses) {
+    // let row = document.querySelectorAll("row");
+    // row.forEach((item) => {
+    //   item.remove();
+    // });
   
-    let section = document.querySelectorAll("section");
-    section.forEach((item) => {
-      item.remove();
-    });
+    // let section = document.querySelectorAll("section");
+    // section.forEach((item) => {
+    //   item.remove();
+    // });
   
-    business.forEach((business) => {
+    businesses.forEach((business) => {
       let tr = document.createElement("tr");
       let td_name = document.createElement("td");
       let td_address = document.createElement("td");
@@ -72,22 +73,19 @@ async function getDirectoryData() {
     });
   }
 
+  table_class = document.querySelector(".table")
+  card_class = document.querySelector(".cards")
+  table_button = document.querySelector("#list")
+  card_button = document.querySelector("#cards")
+  
+  card_button.addEventListener('click', () => {
+    card_class.style.display = "flex";
+    table_class.style.display = "none";
+  });
+  
+  table_button.addEventListener('click', () => {
+    card_class.style.display = "none";
+    table_class.style.display = "block";
+    console.log
+  });
 
-const cardsbutton = document.querySelector("#cards");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("view");
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
-cardsbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("cards");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", displayBusiness); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("cards");
-}

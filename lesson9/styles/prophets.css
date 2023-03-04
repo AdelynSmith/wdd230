@@ -43,7 +43,7 @@ table{
 
 td{
     padding: 5px;
-    display: block; /*media query use table-cell*/
+    display: table-cell; /*media query use table-cell*/
 }
 
 tr:nth-of-type(even) {
