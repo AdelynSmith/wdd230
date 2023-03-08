@@ -81,12 +81,12 @@
 
       <section id="weather">
         <h1>Weather</h1>
-        <img id="weatherimg" src="images/weather.png" alt="Sun with a cloud" />
-        <h2 class="temp"><span class="t">33</span>&deg;F</h2>
-        <p class="desc">Partly Cloudy</p>
+        <img id="weather_icon" src= "" alt="Weather Icon" />
+        <h2 class="temp"><span id="t"></span>&deg;F</h2>
+        <p id="condition"></p>
         <hr />
-        <p>Wind Speed:<span class="ws"> 12.5</span>mph</p>
-        <p>Wind Chill:<span class="wc"> N/A </span></p>
+        <p>Wind Speed:<span id="ws"></span>mph</p>
+        <p>Wind Chill:<span id="wc">N/A</span></p>
       </section>
 
       <section id="news">
@@ -144,5 +144,6 @@
     </footer>
     <script src="scripts/main.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
   </body>
 </html>
