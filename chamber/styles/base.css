@@ -125,10 +125,10 @@ footer h1{
 }
 
 #welcome{
-    position:absolute;
-    top:0;
-    left:0;
-    color:#bba364;
+    /* position:absolute; */
+    text-align: center;
+    color: #0a1256;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #small{
