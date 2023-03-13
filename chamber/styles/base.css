@@ -19,6 +19,12 @@ nav{
     list-style-type: none;
 }
 
+#link:hover{
+    background-color: transparent;
+    box-shadow: none;
+    /* border-radius: none; */
+}
+
 button{
     background-color: transparent;
     border:none;

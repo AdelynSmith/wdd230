@@ -26,7 +26,7 @@ async function getBusinessData() {
   
         // Build the h2 content out to show the prophet's full name - finish the template string
         h2.textContent = `${business.name} `;
-        p.textContent = `${business.address} ${business.phone} ${business.membership}`
+        p.textContent = `${business.address} ${business.phone}`
   
         // Build the image portrait by setting all the relevant attribute
         logo.setAttribute("src", business.image);
@@ -62,20 +62,20 @@ async function getBusinessData() {
       let td_address = document.createElement("td");
       let td_phone = document.createElement("td");
       let td_website = document.createElement("td");
-      let td_membership = document.createElement("td");
+      // let td_membership = document.createElement("td");
   
       td_name.textContent = `${business.name}`;
       td_address.textContent = business.address;
       td_phone.textContent = business.phone;
       td_website.textContent = business.website;
-      td_membership.textContent = business.membership;
+      // td_membership.textContent = business.membership;
 
   
       tr.appendChild(td_name);
       tr.appendChild(td_address);
       tr.appendChild(td_website);
       tr.appendChild(td_phone);
-      tr.appendChild(td_membership);
+      // tr.appendChild(td_membership);
   
       document.querySelector("table").appendChild(tr);
     });
