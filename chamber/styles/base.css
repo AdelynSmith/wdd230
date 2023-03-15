@@ -64,12 +64,22 @@ nav ul li a:hover{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-#flogo, #ilogo{ 
+#flogo{ 
     width: 20px;
-    align-items: flex-end;
-    
-    /* top: 0; */
+    position: absolute;
+    top: 0;
+    right: 50px;
+    /* align-items: flex-end; */
 }
+
+#ilogo{ 
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 75px;
+    /* align-items: flex-end; */
+}
+
 
 .date{
     background-color: #bba364;
