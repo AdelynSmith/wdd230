@@ -110,8 +110,8 @@ nav h1{
 
 #join a:hover{
     background-color: transparent;
-    box-shadow: transparent;
-    border-radius: none;
+    box-shadow: none;
+    /* border-radius: none; */
 }
 
 
@@ -499,15 +499,16 @@ input[type='submit']{
 }
 
 #directory table{
-    width: 85%;
-    margin: 5% auto;
-    font-size: 15px;
+    width: 75%;
+    margin: 50px auto;
+    font-size: 12px;
     display: none;
 }
 
 #directory td{
     padding: 5px;
     display: block; /*media query use table-cell*/
+    /* align-items: center; */
 }
 
 #directory tr:nth-of-type(even) {

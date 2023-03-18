@@ -84,6 +84,7 @@
         margin:5px;
         border-radius: 5px;
         box-shadow: 5px 5px 10px #6f7364;
+        text-align: center;
     }
     
     #spotlight1{
@@ -172,8 +173,17 @@
     }
 
     /* Directory CSS */
+
+    #directory table{
+        width: 85%;
+        margin: 0 auto;
+        font-size: 10px;
+        /* display: none; */
+    }
+
     #directory td{
         padding: 5px;
         display: table-cell; /*media query use table-cell*/
+        font-size: 15px;
     }
 }
