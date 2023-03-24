@@ -27,7 +27,7 @@ a:hover{
     text-decoration: underline;
 }
 
-h1{
+h1, h2{
     font-family: 'Alkatra', cursive;
     color:#34462A;
     text-align: center;
