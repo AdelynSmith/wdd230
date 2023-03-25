@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bountful Foods Home Page" />
+    <meta name="author" content="Adelyn Smith" />
+    <title>Home |Bountiful Foods</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+
+        <ul id="primaryNav">
+          <li>
+            <a id="link" href="index.html">
+              <img id="small_logo" src="images/logo.png" alt="logo"
+            /></a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img id="flogo" src="images/facebook.png" alt="facebook"
+        /></a>
+
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img id="ilogo" src="images/instagram.png" alt="instagram"
+        /></a>
+      </nav>
+      <hr />
+    </header>
+    <div class="date"></div>
+    <main id="content">
+
+      <!-- <section id="hero">
+        <img id="hero_img" src="images/fruithero.jpg" alt="Hero Fruit" />
+      </section> -->
+
+      <section id="weather">
+        <h1>Weather</h1>
+        <img id="weather_icon" src="" alt="Weather Icon" />
+        <h2 class="temp"><span id="t"></span>&deg;F</h2>
+        <p id="condition"></p>
+        <hr />
+        <p>Wind Speed:<span id="ws"></span>mph</p>
+        <p>Wind Chill:<span id="wc">N/A</span></p>
+      </section>
+      <section id="info">
+        <p>
+          Bountiful Foods is small business specializing in organic, locally
+          grown foods. They are physically located in Carlsbad, California,
+          however, they have many food trucks that cover the coastal area from
+          Los Angeles to San Diego. The company sells fruits and produce
+          directly from the farmers in the area, but also uses some national and
+          international suppliers. The owner-operated company caters to walk in
+          traffic at their storefront in Carlsbad and, of course, their food
+          trucks. They deliver and manage those orders on the phone and via the
+          website. The mission is to provide fresh and healthy food options,
+          including organic, made to order, fruit drinks and fruit bags, to the
+          local population and to tourists visiting the coastal areas.
+        </p>
+      </section>
+      <section id="action">
+        <p>Create Your Smoothie!</p>
+      </section>
+    </main>
+    <footer>
+      <!-- <img id="small_logo" src="images/small_logo.png" alt="logo" /> -->
+      <h1>Bountiful Foods</h1>
+      <h2 id="copy">.</h2>
+      <p>Adelyn Smith | WDD230</p>
+      <p>(123)-456-7890</p>
+      <a
+        href="https://www.google.com/maps/place/Idaho+Falls,+ID/@43.4928072,-112.1037476,12z/data=!3m1!4b1!4m5!3m4!1s0x5354594e739512b5:0x2311c9fc094c49c9!8m2!3d43.4926607!4d-112.0407584"
+        >Location</a
+      >
+      <div id="year"></div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+@media only screen and (min-width: 900px){
+    nav ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 10px;
+    }
+    
+/* Hero Image...ish */
+
+    /* #hero_section{
+        display: grid;
+        grid-column: 1/4;
+        grid-row:1;
+    }
+    
+    #hero_img{
+        width:100%;
+    } */
+
+    #content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #weather{
+        grid-column: 1/2;
+        grid-row:2
+    }
+
+    #info{
+        grid-column: 2/3;
+        grid-row:2;
+    }
+
+    #action{
+        grid-column: 3/4;
+        grid-row: 2;
+    }
+}
