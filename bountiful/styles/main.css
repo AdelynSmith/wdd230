@@ -176,6 +176,8 @@ h1, h2{
 
 label, input{
     display: block;
+    border-radius: 5px;
+    color: #34462A;
     font-size: 1.5em;
 }
 
@@ -192,7 +194,7 @@ input[type='radio']{
 }
 
 form input:required{
-    border-left: red solid 6px;
+    border-left: #C1666B solid 6px;
 }
 
 form input:required:valid{
@@ -222,8 +224,8 @@ input, textarea{
 input[type='submit']{
     height: 80px;
     border-radius: 10px;
-    background-color: #0a1256 ;
-    color: #bba364;
+    background-color:#34462A;
+    color: #CDDAC5;
 }
 
 #membership li{
