@@ -42,6 +42,11 @@
         width:100%;
         grid-column: 1/3;
     }
+
+    #hero_message{
+     right: 150px; 
+     width: 25%;
+    }
     
      #weather{
         grid-column: 1/2;
