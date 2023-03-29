@@ -8,15 +8,24 @@
     
 /* Hero Image...ish */
 
-    /* #hero_section{
+    #hero_section{
         display: grid;
-        grid-column: 1/4;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-row:1;
     }
     
     #hero_img{
         width:100%;
-    } */
+        grid-column: 1/4;
+        display: none
+    } 
+
+    #hero_img_large{
+        display: grid;
+        width: 95%;
+        margin: 0 auto;
+        grid-column: 1/4;
+    }
 
     #content{
         display: grid;
@@ -36,5 +45,9 @@
     #action{
         grid-column: 3/4;
         grid-row: 2;
+    }
+
+    #smoothie{
+        width: 60%;
     }
 }

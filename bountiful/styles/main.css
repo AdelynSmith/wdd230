@@ -96,6 +96,7 @@ nav ul li a:hover{
     padding: 3px;
     color: #34462A;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 
@@ -126,13 +127,26 @@ h1, h2{
 
 /* Hero Image...ish */
 
-/* #hero_section{
-    grid-column: 1/2;
+#hero_section{
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: -1;
 }
 
 #hero_img{
     width:100%;
-} */
+    grid-column: 1/2;
+} 
+
+#hero_message{
+    width: 200px;
+    background-color: #CDDAC5;
+    z-index: -1;
+}
+
+#hero_img_large{
+    display: none;
+}
 
 #info{
     font-family: 'Montserrat', sans-serif;
@@ -151,7 +165,11 @@ h1, h2{
 }
 
 #weather_icon{
-    width: 30%;
+    width: 20%;
+}
+
+#weather hr{
+    width: 90%;
 }
 
 #action{
@@ -160,6 +178,22 @@ h1, h2{
     text-align: center;
     color: #34462A;
     font-family: 'Montserrat', sans-serif;
+}
+
+#order{
+    border: 3px solid #C1666B;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6f7364; 
+    padding: 5px;
+    margin: 5px;
+}
+
+#smoothie{
+    width: 40%;
+}
+
+#action hr{
+    width: 90%;
 }
 
 /* JOIN page CSS */
@@ -189,7 +223,7 @@ input{
     height: 40px;
 }
 
-input[type='radio']{
+input[type='checkbox']{
     height: 20px;
 }
 
@@ -201,13 +235,13 @@ form input:required:valid{
     border-left: green solid 6px;
 }
 
-#radio {
+#checkbox {
     display: grid;
     grid-template-columns: 60px 100px;
     /* align-items: center; */
 }
 
-#radio label, #radio input{
+#checkbox label, #checkbox input{
     margin: 0;
 }
 
