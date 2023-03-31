@@ -29,7 +29,7 @@
           </li>
           <li><a href="index.html">Home</a></li>
           <li><a href="fresh.html">Fresh</a></li>
-          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
         </ul>
         <a href="https://www.facebook.com/" target="_blank"
           ><img id="flogo" src="images/facebook.png" alt="facebook"
@@ -43,8 +43,9 @@
     </header>
     <div class="date"></div>
 
-    <main id="join_content">
-        <form method="get" action="thankyou.html">
+    <main>
+      <div id="fresh_content"></div>
+        <form method="post" action="order-received-page">
           <label for="fname">First Name*:</label>
           <input id="fname" name="firstname" required>
           <label for="lname">Last Name*:</label>
@@ -64,10 +65,11 @@
               <input id="member" id="four" type="checkbox" name="mlevel">
               <label for="four">Level 4</label>
           </div>
+          
           <label for="message">Mixing Directions:</label>
           <textarea id="message"></textarea>
           <input id="date" type="hidden" name="todaydate">
-          <input type="submit" value="Place Order">
+          <input type="submit" value="Place Order" id="drinkCount">
         </form>
     
     <footer>
