@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bountful Foods Home Page" />
+    <meta name="author" content="Adelyn Smith" />
+    <title>Home |Bountiful Foods</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+
+        <ul id="primaryNav">
+          <li>
+            <a id="link" href="index.html">
+              <img id="small_logo" src="images/small_logo.png" alt="logo"
+            /></a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img id="flogo" src="images/facebook.png" alt="facebook"
+        /></a>
+
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img id="ilogo" src="images/instagram.png" alt="instagram"
+        /></a>
+      </nav>
+      <hr />
+    </header>
+    <div class="date"></div>
+    <main id="about_us_content">
+      <div id="map">
+        <iframe
+          id="map-img"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.70960420073!2d-117.35784271632622!3d33.121643733076965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA!5e0!3m2!1sen!2sus!4v1680283725049!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <section id="trail">
+        <img
+          id="trail-img"
+          src="https://via.placeholder.com/150 "
+          data-src="images/beachtrail.jpg"
+          alt="Trail by a beach"
+        />
+      </section>
+
+      <section id="ocean">
+        <img
+          id="ocean-img"
+          src="https://via.placeholder.com/150 "
+          data-src="images/ocean.jpg"
+          alt="Ocean with sun"
+        />
+      </section>
+
+      <section id="foodtruck">
+        <img
+          id="foodtruck-img"
+          src="https://via.placeholder.com/150 "
+          data-src="images/foodtruck.jpg"
+          alt="Food Truck"
+        />
+      </section>
+
+      <section id="about-info">
+        <h1>About Us</h1>
+        <p>Bountiful Foods promotes healthy lifestyles while using locally grown produce to create
+            healthy snacks for you. Founded in Carlsbad, California in 1945 by Franny Johnson, this is a family central business.
+            Franny sold fresh fruits and vegatables in a stand at a local Farmer's Market. It has grown from that stand to
+            serve not only those locally, but expand and serve across California and the United States. From food trucks, fruit baskets, and
+            fruit drinks Bountiful Foods is an advocate for healthy eating. 
+            
+        </p>
+        <p>The produce is collected locally as well as some national and international locations. In order to make it the most
+            healthy option for customers, there are organic options. Bountiful Foods is also the produce suppliers for 
+            local favorite restaurants such as Campfire, Bluewater Grill, and Fresco.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <!-- <img id="small_logo" src="images/small_logo.png" alt="logo" /> -->
+      <h1>Bountiful Foods</h1>
+      <h2 id="copy">.</h2>
+      <p>Adelyn Smith | WDD230</p>
+      <p>(123)-456-7890</p>
+      <a
+        href="https://www.google.com/maps/place/Idaho+Falls,+ID/@43.4928072,-112.1037476,12z/data=!3m1!4b1!4m5!3m4!1s0x5354594e739512b5:0x2311c9fc094c49c9!8m2!3d43.4926607!4d-112.0407584"
+        >Location</a
+      >
+      <div id="year"></div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/lazyload.js"></script>
+  </body>
+</html>

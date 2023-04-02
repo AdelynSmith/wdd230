@@ -205,15 +205,11 @@ h1, h2{
 
 /* Fresh page CSS */
 
-#fresh_content{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: 0 auto;
-    justify-content: space-around;
-    color: #0a1256;
-    font-family: 'Source Sans Pro', sans-serif;
-}
+/* #fresh form{
+    border: 3px solid #C1666B;
+} */
+
+
 
 label, input{
     display: block;
@@ -258,7 +254,7 @@ textarea{
 
 input, textarea{
     margin-bottom: 20px;
-    width: 100%;
+    width: 50%;
     max-width: 500px; 
 }
 
@@ -289,13 +285,48 @@ input[type='submit']{
     left: 0;
     right: 0;
     padding: .5em;
-    /* make this element invisible until we are ready for it */
     display: none;      
 }
+
+/* #fresh_content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    font-family: 'Source Sans Pro', sans-serif;
+} */
 
 /* .moveDown {
     margin-top: 3em;
 } */
+
+/* About Us Page */
+#map-img{
+    width:70%;
+    height:450px;
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #C1666B;
+}
+
+#about_us_content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#trail-img, #ocean-img, #foodtruck-img{
+    display: block;
+    margin: 10px auto;
+    width: 75%;
+}
+
+#about-info{
+    font-family: 'Montserrat', sans-serif;
+    color:#34462A;
+
+}
+
 
 
 @media only screen and (min-width: 500px){

@@ -66,4 +66,29 @@
     .date{
         justify-content: center;
     }
+
+    #about_us_content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #map{
+        grid-column: 1/3;
+    }
+
+    #trail{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+
+    #ocean{
+        grid-column: 2/3;
+    }
+
+    #foodtruck{
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+
+
 }

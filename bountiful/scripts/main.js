@@ -38,7 +38,6 @@ function drinkCount() {
     localStorage.setItem('drinkcount', 1);
   }
   console.log(localStorage.getItem('drinkcount'));
-  document.querySelector("#number_ordered").innerHTML = localStorage.getItem('drinkcount');
 }
 document.querySelector("#drinkCount").addEventListener("click", drinkCount)
 
@@ -70,21 +69,16 @@ const list = document.querySelector('ul');
 
 
       // Order message
-      // get the feedback div element so we can do something with it.
 const feedbackElement = document.getElementById("fresh_content");
-// get the form so we can read what was entered in it.
 const formElement = document.forms[0];
 // add a 'listener' to wait for a submission of our form. When that happens run the code below.
 formElement.addEventListener("submit", function (e) {
   // stop the form from doing the default action.
   e.preventDefault();
-  // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
   feedbackElement.innerHTML =
     "Hello " +
     formElement.firstname.value +
     "! You ordered: ";
-  // make the feedback element visible.
   feedbackElement.style.display = "block";
-  // add a class to move everything down so our message doesn't cover it.
-  document.body.classList.toggle("moveDown");
+  // document.body.classList.toggle("moveDown");
 });

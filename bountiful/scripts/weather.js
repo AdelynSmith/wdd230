@@ -43,3 +43,5 @@ if (temp <= 50 && ws >= 3) {
 console.log
 };
 getWeather();
+
+document.querySelector("#number_ordered").innerHTML = localStorage.getItem('drinkcount');
