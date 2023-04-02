@@ -50,4 +50,37 @@
     #smoothie{
         width: 60%;
     }
+
+    #about_us_content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #about-info{
+        grid-column: 1/4;
+        grid-row: 1;
+        margin: 0 auto;
+        width: 75%;
+    }
+
+    #trail{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+
+    #foodtruck{
+        grid-column: 2/3;
+        grid-row: 2;
+    }
+
+    #ocean{
+        grid-column: 3/4;
+        grid-row: 2;
+    }
+
+    #map{
+        grid-column: 1/4;
+        grid-row: 3;
+        /* width: 75%; */
+    }
 }

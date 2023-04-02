@@ -88,6 +88,13 @@ nav ul li a:hover{
     /* align-items: flex-end; */
 }
 
+#tlogo{
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    right: 105px;
+}
+
 
 .date{
     background-color: #CDDAC5;
@@ -160,6 +167,8 @@ h1, h2{
     color: #34462A;
     text-align: center;
     border: 3px solid #C1666B;
+    font-size: 1.2em;
+    /* padding: px; */
     margin: 5px;
 }
 
@@ -324,6 +333,9 @@ input[type='submit']{
 #about-info{
     font-family: 'Montserrat', sans-serif;
     color:#34462A;
+    border: 3px solid #C1666B;
+    border-radius: 3px;
+    padding: 10px;
 
 }
 
