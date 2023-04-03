@@ -52,8 +52,6 @@
       <form method="post" action="order-received-page">
         <label for="fname">First Name*:</label>
         <input id="fname" name="firstname" required />
-        <label for="lname">Last Name*:</label>
-        <input id="lname" name="lastname" required />
         <label for="email">Email*:</label>
         <input
           id="email"
@@ -65,7 +63,19 @@
         <label for="phone">Phone*:</label>
         <input id="phone" name="phone" type="tel" required />
         <label for="member">Fruit options: </label>
-        <div id="checkbox">
+        <select name="fruit_name" id="fruits">
+          <option value="">Choose Fruit</option>
+        </select><br><br>
+
+        <select name="fruit_name2" id="fruits">
+          <option value="">Choose a 2nd Fruit</option>
+        </select><br><br>
+
+        <select name="fruit_name3" id="fruits">
+          <option value="">Choose a 3rd option</option>
+        </select>
+
+        <!-- <div id="checkbox">
           <input id="member" id="one" type="checkbox" name="mlevel" />
           <label for="one">Level 1</label>
           <input id="member" id="two" type="checkbox" name="mlevel" />
@@ -74,7 +84,7 @@
           <label for="three">Level 3</label>
           <input id="member" id="four" type="checkbox" name="mlevel" />
           <label for="four">Level 4</label>
-        </div>
+        </div> -->
 
         <label for="message">Mixing Directions:</label>
         <textarea id="message"></textarea>

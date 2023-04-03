@@ -258,7 +258,8 @@ form input:required:valid{
 }
 
 textarea{
-    height: 150px;
+    height: 90px;
+    width: 100px;
 }
 
 input, textarea{

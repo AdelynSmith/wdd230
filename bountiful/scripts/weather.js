@@ -40,8 +40,8 @@ if (temp <= 50 && ws >= 3) {
     windchill.textContent = chill;
 }
 
-console.log
 };
 getWeather();
 
+// Number of Drinks ordered JS
 document.querySelector("#number_ordered").innerHTML = localStorage.getItem('drinkcount');
