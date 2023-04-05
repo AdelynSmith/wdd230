@@ -1,4 +1,4 @@
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 900px) and (max-width: 2000px){
     nav ul{
         display:flex;
         flex-direction: row;
@@ -51,6 +51,8 @@
         width: 60%;
     }
 
+    /* About Us Page*/
+
     #about_us_content{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -82,5 +84,18 @@
         grid-column: 1/4;
         grid-row: 3;
         /* width: 75%; */
+    }
+
+    #contact_info{
+        grid-column: 1/4;
+        grid-row: 4;
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    #contact_info div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 }

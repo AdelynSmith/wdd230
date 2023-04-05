@@ -47,7 +47,7 @@ nav ul {
 
 nav ul li a{
     display:block;
-    padding: .3rem 2vw;
+    padding: .3rem 15vw;
     margin: 0 15px;
 }
 
@@ -110,10 +110,14 @@ nav ul li a:hover{
 footer{
     background-color: #CDDAC5;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     color:#34462A;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
 
 footer h1{
@@ -177,6 +181,7 @@ h1, h2{
     margin: 5px;
     text-align: center;
     font-family: 'Montserrate', sans-serif;
+    font-size: 1.2em;
     color: #34462A;
 }
 
@@ -204,6 +209,10 @@ h1, h2{
     margin: 20px;
 }
 
+#drinkCount{
+    font-size: 1.2em;
+}
+
 #smoothie{
     width: 40%;
 }
@@ -214,17 +223,12 @@ h1, h2{
 
 /* Fresh page CSS */
 
-/* #fresh form{
-    border: 3px solid #C1666B;
-} */
-
-
-
 label, input{
     display: block;
     border-radius: 5px;
     color: #34462A;
     font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 label{
@@ -279,37 +283,37 @@ input[type='submit']{
     padding: 10px;
 }
 
-#join_chamber{
-    text-align: center;
-    color: #0a1256;
-    font-family: 'Source Sans Pro', sans-serif;
+select{
+    display: block;
+    border-radius: 5px;
+    color: #34462A;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 #fresh_content{
     background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
     border: 2px solid #C1666B;
     border-radius: 3px;
-    width: 200px;
+    width: 40%;
+    height: 50%;
+    /* font-size: 82px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.2em;
+    text-align: center;
     position: absolute;
-    bottom: 25px;
-    left: 0;
-    right: 0;
+    top: 325px;
+    /* bottom: 125px; */
+    /* left: 0; */
+    right: 35px;
     padding: .5em;
     display: none;      
 }
 
-/* #fresh_content{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: 0 auto;
-    justify-content: space-around;
-    font-family: 'Source Sans Pro', sans-serif;
-} */
-
-/* .moveDown {
-    margin-top: 3em;
-} */
 
 /* About Us Page */
 #map-img{
@@ -338,6 +342,13 @@ input[type='submit']{
     border-radius: 3px;
     padding: 10px;
 
+}
+
+#contact_info{
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid #C1666B;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 

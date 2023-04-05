@@ -48,7 +48,10 @@
     <div class="date"></div>
 
     <main id="fresh">
-      <div id="fresh_content"></div>
+      <div id="fresh_content">
+        <h1 id="nutrition_facts">Nutrition Facts: </h1>
+        <h1 id="carbcalc"></h1>
+      </div>
       <form method="post" action="order-received-page">
         <label for="fname">First Name*:</label>
         <input id="fname" name="firstname" required />
@@ -63,28 +66,17 @@
         <label for="phone">Phone*:</label>
         <input id="phone" name="phone" type="tel" required />
         <label for="member">Fruit options: </label>
-        <select name="fruit_name" id="fruits">
-          <option value="">Choose Fruit</option>
+        <select name="fruit_name" id="one_fruits">
+          <option value="">--Select--</option>
         </select><br><br>
 
-        <select name="fruit_name2" id="fruits">
-          <option value="">Choose a 2nd Fruit</option>
+        <select name="fruit_name2" id="two_fruits">
+          <option value="">--Select--</option>
         </select><br><br>
 
-        <select name="fruit_name3" id="fruits">
-          <option value="">Choose a 3rd option</option>
+        <select name="fruit_name3" id="three_fruits">
+          <option value="">--Select--</option>
         </select>
-
-        <!-- <div id="checkbox">
-          <input id="member" id="one" type="checkbox" name="mlevel" />
-          <label for="one">Level 1</label>
-          <input id="member" id="two" type="checkbox" name="mlevel" />
-          <label for="two">Level 2</label>
-          <input id="member" id="three" type="checkbox" name="mlevel" />
-          <label for="three">Level 3</label>
-          <input id="member" id="four" type="checkbox" name="mlevel" />
-          <label for="four">Level 4</label>
-        </div> -->
 
         <label for="message">Mixing Directions:</label>
         <textarea id="message"></textarea>
@@ -93,15 +85,12 @@
       </form>
     </main>
     <footer>
-      <!-- <img id="small_logo" src="images/small_logo.png" alt="logo" /> -->
-      <h1>Bountiful Foods</h1>
+      <a href="index.html">
+      <img id="small_logo" src="images/small_logo.png" alt="logo" />
+      </a>
       <h2 id="copy">.</h2>
       <p>Adelyn Smith | WDD230</p>
-      <p>(123)-456-7890</p>
-      <a
-        href="https://www.google.com/maps/place/Idaho+Falls,+ID/@43.4928072,-112.1037476,12z/data=!3m1!4b1!4m5!3m4!1s0x5354594e739512b5:0x2311c9fc094c49c9!8m2!3d43.4926607!4d-112.0407584"
-        >Location</a
-      >
+      <a href="aboutus.html">Contact</a>    
       <div id="year"></div>
     </footer>
     <script src="scripts/main.js"></script>
