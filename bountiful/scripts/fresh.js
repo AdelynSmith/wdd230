@@ -36,15 +36,18 @@ async function getFruitData() {
     freshElement.innerHTML =
       "Hello " +
       formElement.firstname.value +
-      "! You ordered: a " +
-      formElement.message.value + " " +
-      formElement.one_fruits.value +
+      "! Order Information: " + 
+      "Email:  " + 
+      formElement.email.value + "       " + "Phone:  " + 
+      formElement.phone.value + "       " + "Mixing directions:  " +
+      formElement.message.value + "     " + "Fruits:  " + 
+      formElement.one_fruits.value + " " +
       ", " +
       formElement.two_fruits.value +
       ", " +
-      formElement.three_fruits.value +
-      " Smoothie ";
+      formElement.three_fruits.value + " ";
     freshElement.style.display = "block";
+    document.getElementById('date').classList.toggle("moveDown");
 
     let nutritions1;
     let nutritions2;
@@ -64,7 +67,7 @@ async function getFruitData() {
     let sugar1;
     let sugar2;
     let sugar3;
-    let date = new Date();
+    let date = new Date().toDateString();
 
 
     data.forEach(showFruit);
@@ -114,7 +117,7 @@ let sugar_calc = Number(sugar1) + Number(sugar2) + Number(sugar3);
   freshElement.append("total fat: " + fat_calc.toFixed(2) + " \n") + "<br>";
   freshElement.append("total protein: " + protein_calc.toFixed(2) + " \n") + "<br>";
   freshElement.append("total sugar: " + sugar_calc.toFixed(2) + " \n") +  "<br>";
-  freshElement.append(date);
+  freshElement.append("Date: " + date);
 
 
   });

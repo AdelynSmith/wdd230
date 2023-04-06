@@ -5,6 +5,10 @@
         justify-content: space-evenly;
         margin: 10px;
     }
+
+    footer{
+        flex-direction: row;
+    }
     
 /* Hero Image...ish */
 
@@ -97,5 +101,12 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    #fresh_content{
+        position: absolute;
+        width: 40%;
+        top: 325px;
+        right: 35px;
     }
 }
